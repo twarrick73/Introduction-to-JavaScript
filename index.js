@@ -58,7 +58,8 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+var prince = "1999";
+console.log(Number(prince));
 
 
 
@@ -71,10 +72,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(num1, num2){
-  let num1 = 10;
-  let num2 = 10;
-  return num1 * num2;
+function multiply(a, b){
+  let a = 10;
+  let b= 10;
+  return a * b;
 }
 
 
@@ -90,7 +91,7 @@ Do the following:
 */
 
 function dogYears(age){
-  var dogAge = 7*age;
+  var dogAge = 7 * age;
   console.log("Fido is " + dogAge + "years old in dog years!");
 }
 
@@ -134,7 +135,7 @@ function hungryDog(age, weight) {
     console.log('Big dog food:')
     return weight * .15;
   } else {
-    return
+    return "dogs rule";
 
 
 
@@ -158,7 +159,8 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 
 HINT: Remember that the order in which we pass in our arguments matters when it comes to parameters
 */
-
+let computer = Math.random();
+/* i dont understand the rest*/
 function game(user, computer){
   /*add your code here*/
 }

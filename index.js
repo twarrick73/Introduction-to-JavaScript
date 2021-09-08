@@ -19,7 +19,10 @@ Do the following:
 
    HINT: no function required
 */
-
+let votingAge = 18;
+while (votingAge >= 18) {
+  console.log(true);
+  votingAge = false;
 
 
 /*
@@ -32,6 +35,8 @@ Do the following:
 
    HINT: no function required
 */
+
+
 
 
 
@@ -60,8 +65,10 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(num1, num2){
+  let num1 = 10;
+  let num2 = 10;
+  return num1 * num2;
 }
 
 
@@ -76,8 +83,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(age){
+  var dogAge = 7*age;
+  console.log("Fido is " + dogAge + "years old in dog years!");
 }
 
 

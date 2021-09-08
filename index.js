@@ -20,7 +20,7 @@ Do the following:
    HINT: no function required
 */
 let votingAge = 18;
-while (votingAge >= 18) {
+if (votingAge >= 18) {
   console.log(true);
   votingAge = false;
 
@@ -35,6 +35,12 @@ Do the following:
 
    HINT: no function required
 */
+let name = "Teresa";
+let mood = "blah";
+if (mood === "blah"){
+  name = "Moody";
+}
+console.log(name);
 
 
 
@@ -117,9 +123,18 @@ Puppies less than 1 year
 NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-  /*add your code here*/
-}
+function hungryDog(age, weight) {
+  if (age >= 1 && weight <= 5) {
+    console.log('Dog food:')
+    return weight * .05;
+  } else if (age < 1) {
+    console.log('Puppy food:')
+    return weight * .1;
+  } else if (age >= 1 && weight > 5) {
+    console.log('Big dog food:')
+    return weight * .15;
+  } else {
+    return
 
 
 
